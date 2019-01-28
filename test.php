@@ -59,7 +59,7 @@
 if ($_POST) { 
 
 //Setting
-$lineapi = "d7yMeJAklCVN1KFJCHdAK1EJ80llYZZBdLgyaJhKb8t";
+$lineapi = getenv('LINE_NOTIFY_TOKEN');
 
 $mms =  trim($_POST['textArea']);
    
